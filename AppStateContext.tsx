@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from 'react';
-import { supabase } from '../lib/supabase';
+import { supabase } from './supabase';
 import type { EngineConfig } from '../services/signalEngine';
 import { DEFAULT_CONFIG } from '../services/signalEngine';
 import { DEFAULT_RISK, type RiskSettings } from '../services/risk';
